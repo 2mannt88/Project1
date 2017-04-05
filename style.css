@@ -1,0 +1,324 @@
+html {
+  font-family: arial;
+  background-color: #443A34;
+}
+
+.wrapper{
+	width: 1280px;
+	margin: 0 auto;
+}
+
+.navContainer{
+  width: 80%;
+  height: 100px;
+  margin: 0 auto;
+  background-color: #E9C167;
+  padding-bottom: 16px;
+}
+
+  .navContainer ul{  /** Modifying the unordered list **/
+    list-style: none; 
+    float: left;
+    width: 880px;
+    margin: 0 auto;
+    padding-top: 3px;
+}
+
+    .navContainer ul li { /** Modifying the list items **/
+      display: inline-block; 
+      padding-left: 75px; /** changes the distance between the nav       bar links **/  
+}
+
+      .navContainer ul li a{ /** Modifying the anchor on the nav **/
+        text-decoration: none;
+        color: #BF343E;
+        font-weight: bold;
+        font-size: 18px;
+}
+
+        .navContainer ul li a:hover { /** Hover colour **/
+          background-color: #617A85;
+          color: #ffffff;
+}
+
+          .navContainer ul li a:active { /** On-click colour **/
+            background: #EF5A55;
+}
+
+  .mainContainer{ /** basically functioning as the main "body" of the text **/
+   height: 900px;
+   background-color: grey;
+   width: 80%;
+   margin: 0 auto;
+}
+
+    .submainContainer{
+     height: 365px;
+     background-color: #8C635B;
+     width: 82%;
+     margin: 0 auto;
+     position: relative;
+     border-radius: 8px;
+}
+  
+.h1{
+  height: 50px;
+  width: 70%;
+  font-weight: bold;
+  font-size: 45px;
+  text-align: center;
+  margin: 0 auto;
+  float: center;
+  color: #EB845F;
+  padding-top: 5px;
+  padding-bottom: 8px;
+}
+
+.imgContenttext{
+  width: 190px;
+  height: 25px;
+  float: left;
+  position: relative;
+  font-size: 22px;
+  font-weight: bold;
+  margin-top: 240px;
+  margin-left: 30px;
+  color: white;
+}
+
+.headingBar1{
+  width: 60%;
+  height: 50px;
+  margin-top: 30px;
+  background-color: #E9C167;
+  float: center;
+  margin-left: auto; 
+  margin-right: auto;
+  border-radius: 5px;
+}
+
+.h2{
+  height: 35px;
+  width: 60%;
+  font-weight: bold;
+  font-size: 30px;
+  text-align: center;
+  margin: 0 auto;
+  float: center;
+  color: #465971;
+  padding-top: 8px;
+}
+
+/**.logoPlaceholder{ Not currently necessary with logo inserted.
+  width: 80px;
+  height: 74px;
+  margin-top: 3px;
+  margin-left: 3px;
+  float: middle;
+  background-color: blue;
+  position: relative;
+} **/
+
+.imgContainer1{
+  width: 90%;
+  height: 285px;
+  background-color: #c1cdc1;
+  margin: 0 auto;
+}
+
+.specialsContainer1{
+   height: 295px;
+   background-color: #8C635B;
+   width: 30%;
+   position: absolute;
+   margin-top: 20px;
+   border-radius: 2px;
+}
+
+.specialsContainerimg1{
+  height: 190px;
+  width: 25%;
+  margin-left: 20px;
+  position: absolute;
+  margin-top: 30px;
+  border-radius: 2px;
+  background-color: #c1cdc1;
+}
+
+.specialsContainerBanner1{
+  height: 33px;
+  width: 130px;
+  margin-left: 20px;
+  position: absolute;
+  margin-top: 160px;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+  background-color: blue;
+}
+
+.specialsContentheader1{
+  width: 128px;
+  height: 28px;
+  float: left;
+  position: relative;
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 165px;
+  margin-left: 28px;
+  color: white;
+}
+
+.specialsContainer2{
+   height: 295px;
+   background-color: #8C635B;
+   width: 30%;
+   position: absolute;
+   margin-top: 20px;
+   margin-left: 35%;
+   border-radius: 2px;
+}
+
+.specialsContainerBanner2{
+  height: 33px;
+  width: 130px;
+  margin-left: 315px;
+  position: absolute;
+  margin-top: 165px;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+  background-color: blue;
+}
+
+.specialsContainerimg2{
+  height: 190px;
+  width: 25%;
+  margin-left: 315px;
+  position: absolute;
+  margin-top: 30px;
+  border-radius: 2px;
+  background-color: #c1cdc1;
+}
+
+.specialsContentheader2{
+  width: 128px;
+  height: 28px;
+  float: left;
+  position: relative;
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 170px;
+  margin-left: 165px;
+  color: white;
+}
+
+.specialsContainerBanner3{
+  height: 33px;
+  width: 130px;
+  margin-left: 610px;
+  position: absolute;
+  margin-top: 160px;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+  background-color: blue;
+}
+
+.specialsContainer3{
+   height: 295px;
+   background-color: #8C635B;
+   width: 30%;
+   position: absolute;
+   margin-top: 20px;
+   margin-left: 70%;
+   border-radius: 2px;
+}
+  
+.specialsContainerimg3{
+  height: 190px;
+  width: 25%;
+  margin-left: 610px;
+  position: absolute;
+  margin-top: 30px;
+  border-radius: 2px;
+  background-color: #c1cdc1;
+}
+
+.specialsContentheader3{
+  width: 128px;
+  height: 28px;
+  float: left;
+  position: relative;
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: -30px;
+  margin-left: 615px;
+  color: white;
+}
+
+  .headerLogo{
+  height: 70px;
+  width: 70px;
+  background-color: blue;
+}
+
+.buffer{
+  width: 80%;
+  height: 5px;
+  background-color: grey;
+  position: relative;
+  margin: 0 auto;
+}
+
+.buffer2{
+  width: 50%;
+  height: 3px;
+  background-color: black;
+  position: absolute;
+  margin-left: 25%;
+  margin-top: 42%;
+}
+
+.footerbuffer{
+  width: 2px;
+  height: 55px;
+  background-color: #A33632;
+  position: absolute;
+  margin-left: 315px;
+  margin-top: 10px;
+}
+
+.footer{
+  width: 110%;
+  height: 80px;
+  background-color: #E9C167;
+  margin-top: 490px;
+  margin-left: -5%;
+}
+
+.footercontact{
+  position: relative;
+  margin-top: -105px;
+  margin-left: 35px;
+  font-size: 13px;
+}
+
+.footerNav{
+  width: 150px;
+  height: 70px;
+  margin-left: 120px;
+  margin-top: -10px;
+  position: absolute;
+}
+
+    .footerNav ul{
+      width: 150px;
+      height: 75px;
+      list-style: none; 
+      margin-top: 0px;
+      margin-left: -35px;
+}  
+
+      .footerNav ul li{
+        display: list-item;
+        padding: 3px;
+}
+
